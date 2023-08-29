@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030) -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Hector Fabian - Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link href="./portfolio_files/css2" rel="stylesheet" />
+
+    <!-- Icon Font Stylesheet -->
+    <link href="./portfolio_files/all.min.css" rel="stylesheet" />
+    <link href="./portfolio_files/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="./portfolio_files/animate.min.css" rel="stylesheet" />
+    <link href="./portfolio_files/lightbox.min.css" rel="stylesheet" />
+    <link href="./portfolio_files/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./portfolio_files/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="./portfolio_files/style.css" rel="stylesheet" />
+  </head>
+
+  <body style="--inHight: 80px">
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+      style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn"
+    >
+      <a class="navbar-brand d-block d-lg-none" href="">
+        <h1 class="text-primary fw-bold m-0">ProMan</h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-between py-4 py-lg-0"
+        id="navbarCollapse"
+      >
+        <div class="navbar-nav ms-auto py-0">
+          <a href="#home" class="nav-item nav-link active">Home</a>
+          <a href="#about" class="nav-item nav-link">About</a>
+          <a href="#skill" class="nav-item nav-link">Skills</a>
+          <a href="#service" class="nav-item nav-link">Services</a>
+        </div>
+        <!-- <a
+          class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block"
+          href=""
+        >
+          <h1 class="text-primary fw-bold m-0">Hector</h1>
+        </a> -->
+        <div class="navbar-nav me-auto py-0">
+          <a href="#project" class="nav-item nav-link">Projects</a>
+          <a href="#team" class="nav-item nav-link">Certifications</a>
+          <a href="#contact" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <section class="home-benner-section box" id="home">
+      <div class="sow-image-container">
+        <img
+          src="./portfolio_files/bg-img.png"
+          width="1366"
+          height="756"
+          sizes="(max-width: 1366px) 100vw, 1366px"
+          alt=""
+          class="so-widget-image"
+        />
+      </div>
+      <div class="center-cart">
+        <!-- <h3 class="text-primary mb-3">I'm</h3>
+            <h1 class="display-3 mb-3">Hector Fabian</h1>
+            <h2 class="text-primary mb-3">Senior Front-End developer who has been specializing in</h2>
+            <h2 class="typed-text-output d-inline"></h2>
+            <div class="typed-text d-none">React for 6 years, Next.js for 5 years</div> -->
+
+        <h3 class="text-primary bs-text-primary mb-3">I'm</h3>
+        <h3
+          class="text-primary bs-text-primary mb-3"
+          style="color: rgb(240, 110, 23) !important"
+        >
+          Senior web/mobile developer who has been specializing in
+        </h3>
+        <h2 class="typed-text-output d-inline bs-text-secobary">Node.js</h2>
+        <span class="typed-cursor">|</span>
+        <div class="typed-text d-none">
+          React for 8 years, Next.js for 7 years, React Native for 6 years,
+          Node.js for 9 years
+        </div>
+    </section>
+    <!-- Header End -->
+
+    <!-- Video Modal Start -->
+    <div
+      class="modal modal-video fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- 16:9 aspect ratio -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                class="embed-responsive-item"
+                src="./portfolio_files/saved_resource.html"
+                id="video"
+                allowfullscreen=""
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-6 box" id="about">
+      <div class="container">
+        <div class="row g-5">
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="
+              visibility: visible;
+              animation-delay: 0.1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="d-flex align-items-center mb-5">
+              <div class="years flex-shrink-0 text-center me-4">
+                <h1 class="display-1 mb-0">9</h1>
+                <h5 class="mb-0">Years</h5>
+              </div>
+              <h3 class="lh-base mb-0">
+                of working experience as a senior web/mobile developer
+              </h3>
+            </div>
+            <p class="mb-4">
+              I'm a senior web developer who is focused on web development.
+              Specially, I know React/Next.js/Node.js inside out.
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Afordable
+              Prices
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>High-Quality
+              Product
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Open-minded
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Creativity
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>On Time
+              Project Delivery
+            </p>
+            <p class="mb-3">
+              <i class="far fa-check-circle text-primary me-3"></i>Full time
+              Service
+            </p>
+            <!--               <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a> -->
+          </div>
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+            style="
+              visibility: visible;
+              animation-delay: 0.5s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <img
+                  class="img-fluid rounded"
+                  src="./portfolio_files/about-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-sm-6">
+                <img
+                  class="img-fluid rounded"
+                  src="./portfolio_files/about-2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="d-flex align-items-center mb-3">
+              <h5 class="border-end pe-3 me-3 mb-0">Happy Clients</h5>
+              <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">
+                39
+              </h2>
+            </div>
+            <p class="mb-4">
+              I always take the clients satisfy with the high-fidelity product
+              and on-time delivery.
+            </p>
+            <div class="d-flex align-items-center mb-3">
+              <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+              <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">
+                39
+              </h2>
+            </div>
+            <p class="mb-0">
+              So far, I have completed more than 20 huge projects and 19 small
+              projects successfully.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5 box" id="skill">
+      <div class="container">
+        <div class="row g-5">
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="
+              visibility: visible;
+              animation-delay: 0.1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <h1 class="display-5 mb-5">Skills &amp; Experience</h1>
+            <p class="mb-4">
+              As a senior JavaScript/ TypeScript developer, I mostly focused on
+              React, Next.js, and Node.js for 6 years.
+            </p>
+            <!-- <h3 class="mb-4">My Skills</h3> -->
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">JavaScript</h6>
+                    <h6 class="font-weight-bold">100%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">React</h6>
+                    <h6 class="font-weight-bold">100%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-warning"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">React Native</h6>
+                    <h6 class="font-weight-bold">100%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-info"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Next.js</h6>
+                    <h6 class="font-weight-bold">100%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">TypeScript</h6>
+                    <h6 class="font-weight-bold">100%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Node.js</h6>
+                    <h6 class="font-weight-bold">100%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-dark"
+                      role="progressbar"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">GSAP</h6>
+                    <h6 class="font-weight-bold">85%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      role="progressbar"
+                      aria-valuenow="85"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-bold">Gatsby.js</h6>
+                    <h6 class="font-weight-bold">90%</h6>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-warning"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+            style="
+              visibility: visible;
+              animation-delay: 0.5s;
+              animation-name: fadeInUp;
+            "
+          >
+            <ul
+              class="nav nav-pills rounded border border-2 border-primary mb-5"
+            >
+              <li class="nav-item w-50">
+                <button
+                  class="nav-link w-100 py-3 fs-5 active"
+                  data-bs-toggle="pill"
+                  href="#tab-1"
+                >
+                  Experience
+                </button>
+              </li>
+              <li class="nav-item w-50">
+                <button
+                  class="nav-link w-100 py-3 fs-5"
+                  data-bs-toggle="pill"
+                  href="#tab-2"
+                >
+                  Education
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane fade show p-0 active">
+                <div class="row gy-5 gx-4">
+                  <div class="col-sm-6">
+                    <h5>Interned Developer</h5>
+                    <hr class="text-primary my-2" />
+                    <p class="text-primary mb-1">2015 - 2016</p>
+                    <h6 class="mb-0">Sistema Saberes</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Web Developer</h5>
+                    <hr class="text-primary my-2" />
+                    <p class="text-primary mb-1">2017 - 2022</p>
+                    <h6 class="mb-0">Sistema Saberes</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Senior React Developer</h5>
+                    <hr class="text-primary my-2" />
+                    <p class="text-primary mb-1">2022 - current</p>
+                    <h6 class="mb-0">Upwork</h6>
+                  </div>
+                  <!-- <div class="col-sm-6">
+                                    <h5>Apps Designer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2000 - 2045</p>
+                                    <h6 class="mb-0">Apex Software Inc</h6>
+                                </div> -->
+                </div>
+              </div>
+              <div id="tab-2" class="tab-pane fade show p-0">
+                <div class="row gy-5 gx-4">
+                  <div class="col-sm-6">
+                    <h5>Computer Science</h5>
+                    <hr class="text-primary my-2" />
+                    <p class="text-primary mb-1">2009 - 2014</p>
+                    <h6 class="mb-0">Universidad Pontificia Bolivariana</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>JavaScript Development</h5>
+                    <hr class="text-primary my-2" />
+                    <p class="text-primary mb-1">2014 - 2014</p>
+                    <h6 class="mb-0">Online Course-Udemy</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>Web Front-End Development</h5>
+                    <hr class="text-primary my-2" />
+                    <p class="text-primary mb-1">2015 - 2015</p>
+                    <h6 class="mb-0">Online Course-Coursera</h6>
+                  </div>
+                  <div class="col-sm-6">
+                    <h5>React Development</h5>
+                    <hr class="text-primary my-2" />
+                    <p class="text-primary mb-1">2016 - 2016</p>
+                    <h6 class="mb-0">Online Course-freeCodeCamp</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Expertise End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6 box" id="service">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="
+            visibility: hidden;
+            animation-delay: 0.1s;
+            animation-name: none;
+          "
+        >
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-0">My Services</h1>
+          </div>
+          <!-- <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Hire Me</a>
+                </div> -->
+        </div>
+        <div class="row g-4">
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.1s;
+              animation-name: none;
+            "
+          >
+            <div
+              class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5"
+            >
+              <div class="bg-icon flex-shrink-0 mb-3">
+                <i class="fa fa-crop-alt fa-2x text-dark"></i>
+              </div>
+              <div class="ms-sm-4">
+                <h4 class="mb-3">Website Development</h4>
+                <h6 class="mb-3">
+                  Start from <span class="text-primary">$4999</span>
+                </h6>
+                <span
+                  >I offer best class web solutions to your business that helps
+                  you to succeed in your ventures. My understanding of the
+                  requirements for a small website and how it differs from
+                  larger ones and vice versa is what makes me best in my
+                  business. I take pride in combining your inputs and your ideas
+                  to create a website that is a true extension of your brand
+                  image.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.3s;
+              animation-name: none;
+            "
+          >
+            <div
+              class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5"
+            >
+              <div class="bg-icon flex-shrink-0 mb-3">
+                <i class="fa fa-code-branch fa-2x text-dark"></i>
+              </div>
+              <div class="ms-sm-4">
+                <h4 class="mb-3">Web Application Development</h4>
+                <h6 class="mb-3">
+                  Start from <span class="text-primary">$4999</span>
+                </h6>
+                <span
+                  >I offer next-generation web applications that help you sail
+                  smoothly through challenging and ever-evolving technological
+                  times. I provide top-notch, end-to-end web deliverables that
+                  cater to diverse business needs.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.1s;
+              animation-name: none;
+            "
+          >
+            <div
+              class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5"
+            >
+              <div class="bg-icon flex-shrink-0 mb-3">
+                <i class="fa fa-code fa-2x text-dark"></i>
+              </div>
+              <div class="ms-sm-4">
+                <h4 class="mb-3">React Development</h4>
+                <h6 class="mb-3">
+                  Start from <span class="text-primary">$4999</span>
+                </h6>
+                <span
+                  >I have successfully delivered a string of ReactJs development
+                  projects which are known for their high performance and
+                  outstanding UI. My aim is to render smooth and unified
+                  communication along with complete transparency to make
+                  long-lasting relationships with our clients.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.3s;
+              animation-name: none;
+            "
+          >
+            <div
+              class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5"
+            >
+              <div class="bg-icon flex-shrink-0 mb-3">
+                <i class="fa fa-laptop-code fa-2x text-dark"></i>
+              </div>
+              <div class="ms-sm-4">
+                <h4 class="mb-3">IT Consulting</h4>
+                <h6 class="mb-3">
+                  Start from <span class="text-primary">$1999</span>
+                </h6>
+                <span
+                  >As an experienced IT Consultant, I deliver tailored IT
+                  consulting services with the focus of enhancing IT performance
+                  and minimizing downtimes</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5 box" id="project">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-center wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="
+            visibility: hidden;
+            animation-delay: 0.1s;
+            animation-name: none;
+          "
+        >
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-0">My Recent Projects</h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+              <!-- <li class="mx-3 active" data-filter="*">All Projects</li>
+                        <li class="mx-3" data-filter=".first">UI/UX Design</li>
+                        <li class="mx-3" data-filter=".second">Graphic Design</li> -->
+            </ul>
+          </div>
+        </div>
+        <div
+          class="row g-4 portfolio-container wow fadeInUp"
+          style="visibility: hidden; animation-name: none"
+        >
+          <div class="col-lg-4 col-md-6 portfolio-item first">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid"
+                src="./portfolio_files/project-1.jpg"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <p class="text">
+                  I developed this web app for American ticket exchange and
+                  resale company. Vivid Seats is an Online ticket marketplace
+                  where fans can buy and sell tickets to sports, concerts, and
+                  theater events nationwide. I worked on the both front-end and
+                  back-end side.
+                </p>
+                <p class="text">
+                  Tech stack: JavaScript, React, Next.js, Bootstrap, Node.js,
+                  PostgreSQL, AWS
+                </p>
+                <div class="icons">
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="./portfolio_files/project-1.jpg"
+                    data-lightbox="portfolio"
+                    ><i class="fa fa-eye"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="https://www.vividseats.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item second">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid"
+                src="./portfolio_files/project-2.jpg"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <p class="text">
+                  I developed this website for car dealership. Oz Leasing, a
+                  leading e-commerce platform for the auto leasing industry
+                  provides customers an innovative way to lease vehicles at the
+                  most competitive prices in the Nation through their website. I
+                  worked on front-end side.
+                </p>
+                <p class="text">
+                  Tech stack: JavaScript, React, WordPress, jQuery, Bootstrap
+                </p>
+                <div class="icons">
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="./portfolio_files/project-2.jpg"
+                    data-lightbox="portfolio"
+                    ><i class="fa fa-eye"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="https://ozleasing.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid"
+                src="./portfolio_files/project-3.jpg"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <p class="text">
+                  I developed this online shop. Icebug is an Official Webshop |
+                  Largest range of Icebug Shoes. Icebug make shoes that save the
+                  world from slipping - raising the bar for sustainability in
+                  the industry and making it easier to get outdoors. I worked on
+                  the both front-end and back-end side.
+                </p>
+                <p class="text">
+                  Tech stack: JavaScript, React, Node.js, Express, MongoDB,
+                  Nginx, AWS
+                </p>
+                <div class="icons">
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="./portfolio_files/project-3.jpg"
+                    data-lightbox="portfolio"
+                    ><i class="fa fa-eye"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="https://icebug.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item second">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid"
+                src="./portfolio_files/project-4.jpg"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <p class="text">
+                  This is a 3D configuator, product visualization, AR platform.
+                  ATLATL's 3D product configuration and visualization
+                  technology, including augmented reality, enables your
+                  ecommerce brand to engage more customers online. I worked on
+                  the front-end side.
+                </p>
+                <p class="text">Tech stack: JavaScript, React, jQuery, D3.js</p>
+                <div class="icons">
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="./portfolio_files/project-4.jpg"
+                    data-lightbox="portfolio"
+                    ><i class="fa fa-eye"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="https://www.atlatl.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item first">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid"
+                src="./portfolio_files/project-5.jpg"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <p class="text">
+                  This is a marketing software app that allows users to obtain
+                  total Influencer Relationship Management on a single
+                  comprehensive platform. I worked on the both front-end and
+                  back-end side.
+                </p>
+                <p class="text">
+                  Tech stack: JavaScript, React, Next.js, jQuery, Node.js,
+                  PostgreSQL, Nginx, HubSpot
+                </p>
+                <div class="icons">
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="./portfolio_files/project-5.jpg"
+                    data-lightbox="portfolio"
+                    ><i class="fa fa-eye"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="https://influencity.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item second">
+            <div class="portfolio-img rounded overflow-hidden">
+              <img
+                class="img-fluid"
+                src="./portfolio_files/project-6.jpg"
+                alt=""
+              />
+              <div class="portfolio-btn">
+                <p class="text">
+                  This is a real-estate website. The best up to date real estate
+                  listings and comprehensive neighborhood information for the
+                  greater Potomac area. I worked on the front-end side.
+                </p>
+                <p class="text">
+                  Tech stack: JavaScript, React, WordPress, jQuery, Bootstrap
+                </p>
+                <div class="icons">
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="./portfolio_files/project-6.jpg"
+                    data-lightbox="portfolio"
+                    ><i class="fa fa-eye"></i
+                  ></a>
+                  <a
+                    class="btn btn-lg-square btn-outline-secondary border-2 mx-1"
+                    href="https://christinenieva.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><i class="fa fa-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-6 pb-5 box" id="team">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="
+            visibility: hidden;
+            animation-delay: 0.1s;
+            animation-name: none;
+          "
+        >
+          <div class="col-lg-6">
+            <h1 class="display-5 mb-0">Certifications</h1>
+          </div>
+          <!-- <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Contact Us</a>
+                </div> -->
+        </div>
+        <div class="row g-4">
+          <div
+            class="col-lg-4 col-md-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.1s;
+              animation-name: none;
+            "
+          >
+            <div class="team-item position-relative">
+              <img
+                class="img-fluid rounded"
+                src="./portfolio_files/cer-1.jpg"
+                alt=""
+              />
+              <div class="team-text bg-white rounded-end p-4">
+                <div>
+                  <h5>TypeScript Certification</h5>
+                  <!-- <span>Designer</span> -->
+                </div>
+                <!-- <i class="fa fa-arrow-right fa-2x text-primary"></i> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.3s;
+              animation-name: none;
+            "
+          >
+            <div class="team-item position-relative">
+              <img
+                class="img-fluid rounded"
+                src="./portfolio_files/cer-2.jpg"
+                alt=""
+              />
+              <div class="team-text bg-white rounded-end p-4">
+                <div>
+                  <h5>JavaScript Certification</h5>
+                  <!-- <span>Designer</span> -->
+                </div>
+                <!-- <i class="fa fa-arrow-right fa-2x text-primary"></i> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.5s;
+              animation-name: none;
+            "
+          >
+            <div class="team-item position-relative">
+              <img
+                class="img-fluid rounded"
+                src="./portfolio_files/cer-3.jpg"
+                alt=""
+              />
+              <div class="team-text bg-white rounded-end p-4">
+                <div>
+                  <h5>React Certification</h5>
+                  <!-- <span>Designer</span> -->
+                </div>
+                <!-- <i class="fa fa-arrow-right fa-2x text-primary"></i> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Contact Start -->
+    <div
+      class="container-xxl box"
+      style="padding-top: 8rem; padding-bottom: 8rem"
+      id="contact"
+    >
+      <div class="container py-5">
+        <div
+          class="row g-5 mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="
+            visibility: hidden;
+            animation-delay: 0.1s;
+            animation-name: none;
+          "
+        >
+          <!-- <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div> -->
+          <!-- <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div> -->
+        </div>
+        <div class="row g-5">
+          <!-- <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My office:</p>
+                    <h3 class="fw-bold">123 Street, New York, USA</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+012 345 6789</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">info@example.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div> -->
+          <div
+            class="col-lg-7 col-md-6 wow fadeInUpz center-contact"
+            data-wow-delay="0.5s"
+            style="
+              visibility: hidden;
+              animation-delay: 0.5s;
+              animation-name: none;
+            "
+          >
+            <h1
+              class="display-5 text-center pb-5 wow fadeInUp"
+              data-wow-delay="0.1s"
+              style="
+                visibility: hidden;
+                animation-delay: 0.1s;
+                animation-name: none;
+              "
+            >
+              Let's Work Together
+            </h1>
+            <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+            <form onsubmit="onSubmitContact(event)">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                    />
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your Email"
+                      style="
+                        background-image: url('data:image/png;base64,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') !important;
+                        background-repeat: no-repeat;
+                        background-size: 20px;
+                        background-position: 97% center;
+                        cursor: auto;
+                      "
+                      data-minemail-com="0"
+                    />
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subject"
+                      placeholder="Subject"
+                    />
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control"
+                      placeholder="Leave a message here"
+                      id="message"
+                      style="height: 100px"
+                    ></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary py-3 px-5" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Map Start -->
+    <!-- <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </div>
+    </div> -->
+    <!-- Map End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            ©
+            <a class="border-bottom text-secondary" href="#"
+              >Web/Mobile Developer</a
+            >, 2023 All Right Reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            Thank you for your time!
+            <!-- /*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/ -->
+            <!-- Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a> -->
+            <!-- <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      style="display: none"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="./portfolio_files/jquery-3.4.1.min.js.download"></script>
+    <script src="./portfolio_files/bootstrap.bundle.min.js.download"></script>
+    <script src="./portfolio_files/wow.min.js.download"></script>
+    <script src="./portfolio_files/easing.min.js.download"></script>
+    <script src="./portfolio_files/waypoints.min.js.download"></script>
+    <script src="./portfolio_files/typed.min.js.download"></script>
+    <script src="./portfolio_files/counterup.min.js.download"></script>
+    <script src="./portfolio_files/owl.carousel.min.js.download"></script>
+    <script src="./portfolio_files/isotope.pkgd.min.js.download"></script>
+    <script src="./portfolio_files/lightbox.min.js.download"></script>
+
+    <!-- Template Javascript -->
+    <script src="./portfolio_files/main.js.download"></script>
+    <style type="text/css" data-typed-js-css="true">
+      .typed-cursor {
+        opacity: 1;
+      }
+      .typed-cursor.typed-cursor--blink {
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+      }
+      @keyframes typedjsBlink {
+        50% {
+          opacity: 0;
+        }
+      }
+      @-webkit-keyframes typedjsBlink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+    <script>
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+      function onSubmitContact(e) {
+        e.preventDefault();
+        e.target.reset();
+      }
+    </script>
+
+    <div
+      id="lightboxOverlay"
+      class="lightboxOverlay"
+      style="display: none"
+    ></div>
+    <div id="lightbox" class="lightbox" style="display: none">
+      <div class="lb-outerContainer">
+        <div class="lb-container">
+          <img
+            class="lb-image"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+          />
+          <div class="lb-nav">
+            <a class="lb-prev" href=""></a><a class="lb-next" href=""></a>
+          </div>
+          <div class="lb-loader"><a class="lb-cancel"></a></div>
+        </div>
+      </div>
+      <div class="lb-dataContainer">
+        <div class="lb-data">
+          <div class="lb-details">
+            <span class="lb-caption"></span><span class="lb-number"></span>
+          </div>
+          <div class="lb-closeContainer"><a class="lb-close"></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
